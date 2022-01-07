@@ -1,4 +1,4 @@
 cloudfunctions/*/node_modules
 .DS_Store
 node_modules/
-miniprogramm_npm/
+miniprogram_npm/
