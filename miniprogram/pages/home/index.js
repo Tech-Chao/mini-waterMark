@@ -72,6 +72,16 @@ Page({
     return interstitialAd;
   },
 
+  miniMiguaTap: function(e) {
+    wx.navigateToMiniProgram({
+        appId: "wx8983cbdfb52fc990"
+    });
+  },
+  miniDanmuTap: function(e) {
+    wx.navigateToMiniProgram({
+        appId: "wx9039c337e086096b"
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

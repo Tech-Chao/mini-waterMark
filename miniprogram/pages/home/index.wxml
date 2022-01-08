@@ -43,6 +43,16 @@
       <van-button bind:click="showHistoryAction" custom-class="kefu-btn btn" plain type="default" block size="normal" icon="todo-list-o">历史记录</van-button>
     </view>
   </view>
+  <view class="bottom-container">
+        <view bindtap="miniMiguaTap" class="computerBtn2">
+            <image class="cImage-circle" src="../../images/mini_waimai.png"></image>
+            <text class="cText">外卖红包</text>
+        </view>
+        <view bindtap="miniDanmuTap" class="computerBtn2">
+            <image class="cImage-circle" src="../../images/danmu.png"></image>
+            <text class="cText">手持弹幕</text>
+        </view>
+  </view>
   <view class="official-area">
     <official-account bindload="onOfficialAccountLoad" binderror="onOfficialAccountError"></official-account>
   </view>
