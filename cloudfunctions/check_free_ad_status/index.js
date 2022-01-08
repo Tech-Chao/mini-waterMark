@@ -24,7 +24,7 @@ exports.main = async (event, context) => {
   if (_.isEmpty(result.data)) {
     // 没有记录的话增加一条记录
     const record = {
-      app_name: event.app_name || 'PP去水印助手',
+      app_name: event.app_name || 'AI水印小助手',
       openid,
       appid,
       created_time: new Date(),

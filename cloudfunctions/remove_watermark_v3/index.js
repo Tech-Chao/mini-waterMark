@@ -23,7 +23,7 @@ exports.main = async (event, context) => {
       '该视频已被删除',
     ];
     if (!ignore_msg_list.includes(result.msg)) {
-      const tips_msg = `「PP去水印助手」收到视频解析接口错误信息：「${result.msg}」，请尽快排查。`;
+      const tips_msg = `「AI水印小助手」收到视频解析接口错误信息：「${result.msg}」，请尽快排查。`;
       sendDingTalkMsg(tips_msg).catch(err => console.error(err));
     }
     return result;

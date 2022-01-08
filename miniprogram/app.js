@@ -59,7 +59,7 @@ App({
       show_interstitial_ad_delay: 0, // 单位：ms
     };
     // 全局
-    this.app_name = 'PP去水印助手';
+    this.app_name = 'AI水印小助手';
   },
 
   /**

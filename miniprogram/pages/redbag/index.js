@@ -5,16 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    redbag_list: [
-      {
-        _id: '1',
-        title: '饿了么天天抢红包（1）',
-        logo: 'cloud://prod-wqk8p.7072-prod-wqk8p-1301987273/app-images/elm-logo.png',
-        price: '20',
-        total: 268,
-        mini_app: { appid: 'wxece3a9a4c82f58c9', path: 'taoke/pages/shopping-guide/index?scene=TYsNuqu' }
-      }
-    ],
+   
   },
 
   /**
@@ -47,11 +38,7 @@ Page({
    * @param {*} e e
    */
   getRedbag: function(e) {
-    console.log(e);
-    const { appid, path } = e.currentTarget.dataset || {};
-    if (appid && path) {
-      wx.navigateToMiniProgram({ appId: appid, path });
-    }
+      wx.navigateToMiniProgram({ appId: "wxece3a9a4c82f58c9", path:'taoke/pages/shopping-guide/index?scene=RfaoMtu' });
   },
 
   /**

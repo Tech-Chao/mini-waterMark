@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "PP去水印助手",
+  "navigationBarTitleText": "AI水印小助手",
   "usingComponents": {
     "add-tips": "/components/add-tips/index",
     "van-toast": "@vant/weapp/toast/index",

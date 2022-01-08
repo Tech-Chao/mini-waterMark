@@ -1,7 +1,7 @@
 <!-- <add-tips name="添加到我的小程序，以后使用更方便" delay="{{2}}" duration="{{5}}"/> -->
 <view class="banner">
   <!-- <image mode="widthFix" style="width:100%" src="../../images/banner.png"></image> -->
-  <ad unit-id="adunit-c1ac2c5798d8429a" ad-type="video" ad-theme="white"></ad>
+  <!-- <ad unit-id="adunit-c1ac2c5798d8429a" ad-type="video" ad-theme="white"></ad> -->
 </view>
 <view class="root">
   <view class="input-area">
@@ -69,7 +69,7 @@
   show="{{ show_action_sheet }}"
   cancel-text="好的"
   actions="{{ action_list }}"
-  description="成功保存到手机相册"
+  description="已成功保存到手机相册"
   bind:close="onActionSheetClose"
   bind:cancel="onActionSheetClose"
   bind:select="onActionSheetSelect"

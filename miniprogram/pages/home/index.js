@@ -427,8 +427,8 @@ Page({
       this.shareVideoMessage();
     } else if (type === 'RED_PACKET') {
       wx.navigateToMiniProgram({
-        appId: 'wxde8ac0a21135c07d',
-        path: 'waimaiunion/pages/union/index?scene=1!f4hVVr5zJG_R!1!2!sVdWvg',
+        appId: 'wxece3a9a4c82f58c9',
+        path: 'taoke/pages/shopping-guide/index?scene=RfaoMtu',
       })
     }
   },
